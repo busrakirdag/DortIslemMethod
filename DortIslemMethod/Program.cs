@@ -35,7 +35,7 @@ namespace DortIslemMethod
         private static float Islem(char islem, int[] sayilar)
         {
             float sonuc = sayilar[0];
-            for(int i=1;i<=sayilar.Length;i++)
+            for(int i=1;i<sayilar.Length;i++)
             {                
                 switch (islem)
                 {
